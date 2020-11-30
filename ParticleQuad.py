@@ -98,7 +98,7 @@ class ParticleQuad():
         #envs = ["Rotor", "Wind"]
         #mag = [0,0,0,0]
         faultModes = []
-        print("Setting Env " + str(envs)  + " " + str(magnitudes))
+        #("Setting Env " + str(envs)  + " " + str(magnitudes))
         if envs == []:
             faultModes = ['None']
 
@@ -216,7 +216,7 @@ class ParticleQuad():
 
                 # self.gui_object.close()
                 self.done = True
-                print("out of bounds")
+                #print("out of bounds")
                 return 50
 
 

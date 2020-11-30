@@ -478,7 +478,7 @@ class PID_Controller():
 
         limit = 200
         if(self.hasLeftBounds and self.total_time_outside_safety > limit):
-            print("left flight area - aborting" + str(self.total_time_outside_safety) )
+            #print("left flight area - aborting" + str(self.total_time_outside_safety) )
             reward = -0.1
 
         return reward
