@@ -476,7 +476,7 @@ class PID_Controller():
             #print("Failed epsidoe steps:" + str(self.total_steps))
         #
 
-        limit = 300
+        limit = 400
         if(self.hasLeftBounds and self.total_time_outside_safety > limit):
             #print("left flight area - aborting" + str(self.total_time_outside_safety) )
             reward = -0.1
